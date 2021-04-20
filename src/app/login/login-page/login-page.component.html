@@ -1,0 +1,13 @@
+<div class="container-login">
+    <div class="content-login">
+        <div class="logo">
+            <img src="../../../assets/logoSmallNoWhite2.png" width="100%">
+        </div>
+        <h1> Make your login </h1>
+        <input type="text" placeholder="Email..." [(ngModel)]="user.email" (ngModelChange)="msgError = ''"/>
+        <input type="password" placeholder="Password..." [(ngModel)]="user.password" (ngModelChange)="msgError = ''"/>
+        <button (click)="login()">OK</button>
+        <h3 class="singup" (click)="showSingup()">Não possui uma conta? Clique aqui para criar a sua!</h3>
+        <h3>{{msgError}}</h3>
+    </div>
+</div>

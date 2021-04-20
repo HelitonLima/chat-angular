@@ -1,0 +1,13 @@
+<div class="container-message" *ngFor="let msg of messages">
+    <div class="data">
+        <span class="sender">
+            {{msg.username}}
+        </span>
+        <span class="date">
+            {{msg.timeSent}}
+        </span>
+    </div>
+    <div class="message">
+        <span>{{msg.message}}</span>
+    </div>
+</div>

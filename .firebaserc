@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "social-up-4f8fe": {
+      "hosting": {
+        "chat-angular": [
+          "social-up-4f8fe"
+        ]
+      }
+    }
+  }
+}

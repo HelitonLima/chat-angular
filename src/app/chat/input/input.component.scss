@@ -1,0 +1,22 @@
+.input-container {
+    border-top-style: solid;
+    border-top-color: #5A798C;
+    border-top-width: 0.5px;
+    height: 62px;
+}
+.chat-input {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    height: 100%;
+}
+.chat-input:focus {
+    outline: none
+}
+.chat-button {
+    background-color: transparent;
+    width: 25%;
+    color: #364C59;
+    font-size: 18px;
+    height: 100%;
+}

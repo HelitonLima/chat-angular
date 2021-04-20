@@ -1,3 +1,4 @@
+import { AngularFirestore } from '@angular/fire/firestore'
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'chat-angular';
+  message: any
+
+  constructor(
+    private fire: AngularFirestore
+  ) {
+
+    this.fodase()
+  }
+
+  fodase(){
+    this.message =  this.fire.collection('message').valueChanges()
+  }
+
 }

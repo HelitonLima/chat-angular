@@ -1,0 +1,11 @@
+.container-message {
+    display: flex;
+    flex-direction: column;
+    background-color: #D5E5F2;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.sender {
+    font-weight: bold;
+}
